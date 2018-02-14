@@ -1,0 +1,209 @@
+{
+  "coords" : {
+    "ship0" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship1" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.5553460990072,
+        "altitude" : 36
+    },
+    "ship2" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.55594014594662,
+        "altitude" : 36
+    },
+    "ship3" : {
+        "latitude" : 42.05746089787422,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship4" : {
+        "latitude" : 42.0570659124409,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship5" : {
+        "latitude" : 42.0570954428108,
+        "longitude" : -72.55478029627568,
+        "altitude" : 36
+    },
+    "ship6" : {
+        "latitude" : 42.05728383220283,
+        "longitude" : -72.55584703698072,
+        "altitude" : 36
+    },
+    "ship7" : {
+        "latitude" : 42.05765428251448,
+        "longitude" : -72.55525125858651,
+        "altitude" : 36
+    },
+    "ship8" : {
+        "latitude" : 42.057076055702176,
+        "longitude" : -72.55563295143979,
+        "altitude" : 36
+    },
+    "ship9" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.55514159676102,
+        "altitude" : 36
+    },
+    "ship10" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.55657631871685,
+        "altitude" : 36
+    },
+    "ship11" : {
+        "latitude" : 42.05826529377163,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship12" : {
+        "latitude" : 42.056643913517064,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship13" : {
+        "latitude" : 42.05720173844482,
+        "longitude" : -72.5543951088923,
+        "altitude" : 36
+    },
+    "ship14" : {
+        "latitude" : 42.058193635298124,
+        "longitude" : -72.55577997307614,
+        "altitude" : 36
+    },
+    "ship15" : {
+        "latitude" : 42.05823875590894,
+        "longitude" : -72.55414720914239,
+        "altitude" : 36
+    },
+    "ship16" : {
+        "latitude" : 42.05662475655521,
+        "longitude" : -72.55663251595874,
+        "altitude" : 36
+    },
+    "ship17" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.55538705919692,
+        "altitude" : 36
+    },
+    "ship18" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.55656325457814,
+        "altitude" : 36
+    },
+    "ship19" : {
+        "latitude" : 42.05794258152115,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship20" : {
+        "latitude" : 42.05648801503595,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship21" : {
+        "latitude" : 42.056518414425156,
+        "longitude" : -72.55530681562479,
+        "altitude" : 36
+    },
+    "ship22" : {
+        "latitude" : 42.05875757881723,
+        "longitude" : -72.55550633184322,
+        "altitude" : 36
+    },
+    "ship23" : {
+        "latitude" : 42.05775804703979,
+        "longitude" : -72.55440846559513,
+        "altitude" : 36
+    },
+    "ship24" : {
+        "latitude" : 42.056208821042965,
+        "longitude" : -72.55678136397003,
+        "altitude" : 36
+    },
+    "ship25" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.5539279955892,
+        "altitude" : 36
+    },
+    "ship26" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.55737042138668,
+        "altitude" : 36
+    },
+    "ship27" : {
+        "latitude" : 42.05761924489541,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship28" : {
+        "latitude" : 42.05635289949117,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship29" : {
+        "latitude" : 42.05512105443544,
+        "longitude" : -72.55424318304559,
+        "altitude" : 36
+    },
+    "ship30" : {
+        "latitude" : 42.05822348450624,
+        "longitude" : -72.55784849188188,
+        "altitude" : 36
+    },
+    "ship31" : {
+        "latitude" : 42.05795356095915,
+        "longitude" : -72.5550404749385,
+        "altitude" : 36
+    },
+    "ship32" : {
+        "latitude" : 42.05719356141627,
+        "longitude" : -72.55822570230559,
+        "altitude" : 36
+    },
+    "ship33" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.5517371180267,
+        "altitude" : 36
+    },
+    "ship34" : {
+        "latitude" : 42.0572047,
+        "longitude" : -72.55586909926612,
+        "altitude" : 36
+    },
+    "ship35" : {
+        "latitude" : 42.058746356642565,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship36" : {
+        "latitude" : 42.056365482942276,
+        "longitude" : -72.55540460000002,
+        "altitude" : 36
+    },
+    "ship37" : {
+        "latitude" : 42.05719791673045,
+        "longitude" : -72.55214828043759,
+        "altitude" : 36
+    },
+    "ship38" : {
+        "latitude" : 42.05798915485031,
+        "longitude" : -72.55798158932191,
+        "altitude" : 36
+    },
+    "ship39" : {
+        "latitude" : 42.05876649172577,
+        "longitude" : -72.55520657740583,
+        "altitude" : 36
+    },
+    "ship40" : {
+        "latitude" : 42.0554142434029,
+        "longitude" : -72.55747768189332,
+        "altitude" : 36
+    }
+  }
+}
