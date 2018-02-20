@@ -33,12 +33,12 @@ open class LocationNode: SCNNode {
     ///as the user's location estimates update,
     ///but the position is generally more accurate.
     ///Defaults to true.
-    public var continuallyAdjustNodePositionWhenWithinRange = true
+    public var continuallyAdjustNodePositionWhenWithinRange = false
     
     ///Whether a node's position and scale should be updated automatically on a continual basis.
     ///This should only be set to false if you plan to manually update position and scale
     ///at regular intervals. You can do this with `SceneLocationView`'s `updatePositionOfLocationNode`.
-    public var continuallyUpdatePositionAndScale = true
+    public var continuallyUpdatePositionAndScale = false
     
     public init(location: CLLocation?) {
         self.location = location
@@ -73,6 +73,7 @@ open class LocationAnnotationNode: LocationNode {
         
         annotationNode = SCNNode()
         annotationNode.name = key
+        
         for node in scene.rootNode.childNodes {
             node.name = key
             annotationNode.addChildNode(node)

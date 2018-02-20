@@ -10,6 +10,7 @@ import Foundation
 import ARKit
 import CoreLocation
 import MapKit
+import AudioToolbox
 
 @available(iOS 11.0, *)
 public protocol SceneLocationViewDelegate: class {
@@ -142,26 +143,31 @@ public class SceneLocationView: ARSCNView, ARSCNViewDelegate {
             if ((result.node.parent?.name)?.localizedStandardContains("ship"))! {
                 for locNode in locationNodes {
                     if (locNode.childNode(withName: (result.node.parent?.name)!, recursively: false) != nil) {
+                        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
                         let currentLocation = self.currentLocation()
                         let locationNodeLocation = self.locationOfLocationNode(locNode)
                         let distance = locationNodeLocation.distance(from: currentLocation!)
                         //guard (sceneLocationView.currentRegion != nil) else { return }
-                        if distance < 5 {
-                            print("-------------- distance ---------------")
-                            print("-------------- distance ---------------")
-                            print("-------------- \(distance) ---------------")
-                            print("-------------- distance ---------------")
-                            print("-------------- distance ---------------")
+                        //if distance < 50 {
+                        print("-------------- distance ---------------")
+                        print("-------------- distance ---------------")
+                        print("-------------- \(distance) ---------------")
+                        print("-------------- distance ---------------")
+                        print("-------------- distance ---------------")
 
-                            ref.child("coords").child((result.node.parent?.name)!).removeValue()
+                    ref.child("ships_for_locations").child((result.node.parent?.parent?.parent?.name)!).child((result.node.parent?.name)!).removeValue()
+                        let rotate = SCNAction.move(by: SCNVector3Make(0.00, -10.00, 5.00), duration: 5)
+                        let dive = SCNAction.rotate(by: 90.0, around: SCNVector3Make(0, 0, 1), duration: 2)
+                        let nose = SCNAction.rotate(by: 80.0, around: SCNVector3Make(1, 0, 0), duration: 2)
+                        let actionGroup = SCNAction.group([rotate, dive, nose])
+                        result.node.runAction(actionGroup, forKey: "rotate") {
                             locNode.removeFromParentNode()
-                        }
-                        else {
-                            print((result.node.parent?.name)! + "---------------- out of reach --------------")
                         }
                     }
                 }
             }
+            
+            print("outside if in ship contains" + (result.node.parent?.name)! + (result.node.parent?.parent?.parent?.name)!)
         }
     }
     
@@ -542,7 +548,7 @@ public class SceneLocationView: ARSCNView, ARSCNViewDelegate {
          Add the plane visualization to the ARKit-managed node so that it tracks
          changes in the plane anchor as plane estimation continues.
          */
-        node.addChildNode(planeNode)
+        //node.addChildNode(planeNode)
         
     }
     
@@ -581,6 +587,7 @@ public class SceneLocationView: ARSCNView, ARSCNViewDelegate {
 extension SceneLocationView: LocationManagerDelegate {
     func locationManagerDidUpdateLocation(_ locationManager: LocationManager, location: CLLocation) {
         addSceneLocationEstimate(location: location)
+        
     }
     
     func locationManagerDidUpdateHeading(_ locationManager: LocationManager, heading: CLLocationDirection, accuracy: CLLocationAccuracy) {

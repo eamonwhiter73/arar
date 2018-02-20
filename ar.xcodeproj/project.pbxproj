@@ -29,14 +29,7 @@
 		DD3DD699201D0C1600D8C636 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DD68F201D0C1500D8C636 /* LocationManager.swift */; };
 		DD3DD69A201D0C1600D8C636 /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DD690201D0C1500D8C636 /* SCNNode+Extensions.swift */; };
 		DD3DD6D8201E969500D8C636 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD3DD6D7201E969400D8C636 /* GoogleService-Info.plist */; };
-		DD3DD6DA201E9A3900D8C636 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6D9201E9A3900D8C636 /* FirebaseAnalytics.framework */; };
-		DD3DD6DC201E9A4600D8C636 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6DB201E9A4600D8C636 /* FirebaseCore.framework */; };
-		DD3DD6DE201E9A4D00D8C636 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6DD201E9A4D00D8C636 /* FirebaseCoreDiagnostics.framework */; };
-		DD3DD6E0201E9A5400D8C636 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6DF201E9A5400D8C636 /* FirebaseInstanceID.framework */; };
-		DD3DD6E2201E9A5B00D8C636 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6E1201E9A5B00D8C636 /* FirebaseNanoPB.framework */; };
-		DD3DD6E4201E9A6300D8C636 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6E3201E9A6300D8C636 /* GoogleToolboxForMac.framework */; };
 		DD3DD6E6201E9A6A00D8C636 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6E5201E9A6A00D8C636 /* nanopb.framework */; };
-		DD3DD6E8201E9AA200D8C636 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6E7201E9AA200D8C636 /* FirebaseDatabase.framework */; };
 		DD3DD6EA201E9AB400D8C636 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3DD6E9201E9AB400D8C636 /* leveldb-library.framework */; };
 		DDE3EF902020FAED00F0F3ED /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE3EF8F2020FAED00F0F3ED /* LoginController.swift */; };
 /* End PBXBuildFile section */
@@ -92,14 +85,7 @@
 		DD3DD68F201D0C1500D8C636 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DD3DD690201D0C1500D8C636 /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
 		DD3DD6D7201E969400D8C636 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DD3DD6D9201E9A3900D8C636 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		DD3DD6DB201E9A4600D8C636 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
-		DD3DD6DD201E9A4D00D8C636 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
-		DD3DD6DF201E9A5400D8C636 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		DD3DD6E1201E9A5B00D8C636 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		DD3DD6E3201E9A6300D8C636 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
 		DD3DD6E5201E9A6A00D8C636 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		DD3DD6E7201E9AA200D8C636 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
 		DD3DD6E9201E9AB400D8C636 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
 		DD3DD6EB201E9B6200D8C636 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		DDE3EF8B201E9FA100F0F3ED /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
@@ -114,15 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3DD6DE201E9A4D00D8C636 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				DD3DD6DC201E9A4600D8C636 /* FirebaseCore.framework in Frameworks */,
-				DD3DD6E2201E9A5B00D8C636 /* FirebaseNanoPB.framework in Frameworks */,
 				DD3DD6E6201E9A6A00D8C636 /* nanopb.framework in Frameworks */,
-				DD3DD6E8201E9AA200D8C636 /* FirebaseDatabase.framework in Frameworks */,
 				DD3DD6EA201E9AB400D8C636 /* leveldb-library.framework in Frameworks */,
-				DD3DD6E4201E9A6300D8C636 /* GoogleToolboxForMac.framework in Frameworks */,
-				DD3DD6DA201E9A3900D8C636 /* FirebaseAnalytics.framework in Frameworks */,
-				DD3DD6E0201E9A5400D8C636 /* FirebaseInstanceID.framework in Frameworks */,
 				4DDA2D89F930DCB3F5F9DB9B /* Pods_ar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,14 +188,7 @@
 				DDE3EF8E201EA83000F0F3ED /* scavenger-bridging-header copy.h */,
 				DDE3EF8B201E9FA100F0F3ED /* Firebase.h */,
 				DD3DD6E9201E9AB400D8C636 /* leveldb-library.framework */,
-				DD3DD6E7201E9AA200D8C636 /* FirebaseDatabase.framework */,
 				DD3DD6E5201E9A6A00D8C636 /* nanopb.framework */,
-				DD3DD6E3201E9A6300D8C636 /* GoogleToolboxForMac.framework */,
-				DD3DD6E1201E9A5B00D8C636 /* FirebaseNanoPB.framework */,
-				DD3DD6DF201E9A5400D8C636 /* FirebaseInstanceID.framework */,
-				DD3DD6DD201E9A4D00D8C636 /* FirebaseCoreDiagnostics.framework */,
-				DD3DD6DB201E9A4600D8C636 /* FirebaseCore.framework */,
-				DD3DD6D9201E9A3900D8C636 /* FirebaseAnalytics.framework */,
 			);
 			path = ar;
 			sourceTree = "<group>";
@@ -504,9 +476,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ar/Pods-ar-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -754,10 +729,28 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ar",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleMaps\"",
+					"\"${PODS_ROOT}/Headers/Public/GooglePlaces\"",
+				);
 				INFOPLIST_FILE = ar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eamon.ar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/eamonwhite/ar/ar/ar/scavenger-bridging-header copy.h";
@@ -779,10 +772,28 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ar",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseDatabase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleMaps\"",
+					"\"${PODS_ROOT}/Headers/Public/GooglePlaces\"",
+				);
 				INFOPLIST_FILE = ar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eamon.ar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/eamonwhite/ar/ar/ar/scavenger-bridging-header copy.h";
@@ -800,9 +811,20 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U9867H5L6;
-				HEADER_SEARCH_PATHS = /Users/eamonwhite/ar/ar/ar;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					/Users/eamonwhite/ar/ar/ar,
+					"${PODS_ROOT}/Firebase/Core",
+					"${PODS_ROOT}/Headers/Public/**",
+					"\"${PODS_ROOT}/Headers/Public/GeoFire\"",
+					/Users/eamonwhite/ar/ar/Pods/GeoFire/GeoFire/API,
+				);
 				INFOPLIST_FILE = arTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eamon.arTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -819,9 +841,20 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U9867H5L6;
-				HEADER_SEARCH_PATHS = /Users/eamonwhite/ar/ar/ar;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					/Users/eamonwhite/ar/ar/ar,
+					"${PODS_ROOT}/Firebase/Core",
+					"${PODS_ROOT}/Headers/Public/**",
+					"\"${PODS_ROOT}/Headers/Public/GeoFire\"",
+					/Users/eamonwhite/ar/ar/Pods/GeoFire/GeoFire/API,
+				);
 				INFOPLIST_FILE = arTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eamon.arTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -838,7 +871,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U9867H5L6;
 				INFOPLIST_FILE = arUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eamon.arUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -855,7 +892,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6U9867H5L6;
 				INFOPLIST_FILE = arUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eamon.arUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

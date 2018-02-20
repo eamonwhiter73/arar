@@ -7,6 +7,7 @@ target 'ar' do
 
   # Pods for ar
   pod 'GeoFire', '>= 1.1'
+  pod 'GooglePlaces'
 
   target 'arTests' do
     inherit! :search_paths

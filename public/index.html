@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+
+    <!-- GeoFire -->
+    <script src="https://cdn.firebase.com/libs/geofire/4.1.2/geofire.min.js"></script>
+    <script src="js/latlon-geohash.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDChLGCYFO8nblfAK_sx9BFtxPm5RMqLj0&libraries=places"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <script>
+      $(document).ready(function() {
+        // Set the configuration for your app
+        // TODO: Replace with your project's config object
+        var config = {
+          apiKey: "AIzaSyAgIKHY4Ev0sUP0cTBaq2gTTcUmVLZilnE",
+          authDomain: "scavenger-1517182169698.firebaseapp.com",
+          databaseURL: "https://scavenger-1517182169698.firebaseio.com/",
+          storageBucket: "scavenger-1517182169698.appspot.com"
+        };
+
+        firebase.initializeApp(config);
+
+        initialize();
+      });
+    </script>
+    <div id="map"></div>
+  </body>
+</html>

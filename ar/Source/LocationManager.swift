@@ -61,12 +61,13 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         }
             
     }
+    
     func enableLocationServices(completion: (_ result: Bool) -> Void) {
         print("in enableLocationServices -----------------")
         switch CLLocationManager.authorizationStatus() {
         case .notDetermined:
             // Request always auth
-            self.locationManager?.requestAlwaysAuthorization()
+            self.locationManager?.requestWhenInUseAuthorization()
             break
             
         case .restricted, .denied:
@@ -94,7 +95,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     //MARK: - CLLocationManagerDelegate
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        
+        print(status)
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
